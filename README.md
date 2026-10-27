@@ -2,12 +2,15 @@
 
 The skills in this repository are copied whole from [pstack](https://github.com/cursor/plugins/tree/main/pstack) by Lauren Tan, published in [cursor/plugins](https://github.com/cursor/plugins/tree/main/pstack/skills) under an MIT license.
 
-These skill copies are designed to work in a `devroot` repo set up from [huntiestack](https://github.com/huntie/huntiestack).
+These skill copies are installed by default in [huntiestack](https://github.com/huntie/huntiestack).
 
-**Contents/motivation:**
+## Motivation
 
 - A small subset of pstack, based on what I'm actively using.
 - Frontmatter is updated to remove `disable-model-invocation: true` — this allows the principles to fire on their own in a plain workspace/any harness.
+- (I can't put these directly in [devroot-template-latest/](https://github.com/huntie/huntiestack/tree/main/devroot-template-latest), as skills.sh will crawl them.)
+
+## Contents
 
 https://github.com/cursor/plugins/blob/main/pstack/skills/
 
